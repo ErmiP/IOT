@@ -1,0 +1,117 @@
+#home .bg-gradient-primary {
+    background-color: #0368ca;
+    background-image: linear-gradient(180deg,#0368ca 10%,#0368ca 100%);
+    background-size: cover;
+}
+#home .sidebar-dark .nav-item.active .nav-link {
+    color: #fff;
+}
+
+#home .sidebar .nav-item.active .nav-link {
+    font-weight: 700;
+}
+#home .sidebar-dark .nav-item .nav-link {
+    color: rgba(255,255,255,.8);
+}
+
+.sidebar-dark .nav-item .nav-link {
+    color: rgba(255,255,255,.8);
+}
+@media (min-width: 768px)
+.sidebar .nav-item .nav-link {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    width: 14rem;
+}
+.sidebar .nav-item .nav-link {
+    text-align: center;
+    padding: .75rem 1rem;
+    width: 6.5rem;
+}
+
+/* #home .dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0368ca;;
+  }
+
+#home .breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .7rem;
+    color: #ffffff;
+    content: "/";
+}
+
+#home .breadcrumb-item.active {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#home .breadcrumb {
+    background-color: #0368ca;
+    border: 1px solid #e3e6f0;
+    background-clip: border-box;
+    font-size: .85rem;
+}
+
+#home .breadcrumb-item+.breadcrumb-item {
+    padding-left: .7rem;
+}
+
+#home ol.breadcrumb li.breadcrumb-item a {
+    color: rgba(255, 255, 255, 0.404);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#home ol.breadcrumb li.breadcrumb-item a:hover {
+    color: #ffffff;
+    text-decoration: none; */
+}
+
+#home .text-primary {
+    color: #0368ca!important;
+}
+
+#home .btn-primary {
+    color: #fff;
+    background-color: #298cec;
+    border-color: #298cec;
+}
+  
+#home .btn-primary:hover {
+    color: #fff;
+    background-color: #0368ca;
+    border-color: #0368ca;
+  }
+
+#home .dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0368ca;
+  }
+
+#home .sidebar .nav-item .nav-link {
+    display: block;
+    width: 100%;
+    font-size: .85rem;
+}
+
+#home .list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    font-size: .85rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+/* MODAL PENGATURAN */
+#editPengaturan .bg-editPengaturan {
+    background-color: #0368ca !important;
+}
+  
+

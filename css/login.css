@@ -1,0 +1,49 @@
+body {
+  /* background-color: #ceceef !important; */
+  background: url(../img/ayam.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 500px;
+  padding: 80px 40px;
+  box-sizing: border-box;
+  background: rgba(15, 57, 194, 0.781);
+}
+.avatar {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  top: calc(-80px / 2);
+  left: calc(50% - 40px);
+}
+
+.contact-form h2 {
+  margin: 0;
+  padding: 0 0 20px;
+  color: rgb(255, 249, 249);
+  text-align: center;
+}
+
+#login .btn-primary {
+  color: #fff;
+  background-color: #298cec;
+  border-color: #298cec;
+}
+
+#login .btn-primary:hover {
+  color: #fff;
+  background-color: #0368ca;
+  border-color: #0368ca;
+}
